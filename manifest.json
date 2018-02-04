@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+	"name": "HideTheAnswers",
+	"version": "0.1",
+	"content_scripts": [
+		{
+			"matches": [
+        "http://linuxacademy.com/cp/quiz/*",
+        "https://linuxacademy.com/cp/quiz/*"
+      ],
+			"js": ["content.js"]
+		}
+	]
+}
